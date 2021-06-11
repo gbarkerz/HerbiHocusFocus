@@ -1,0 +1,2179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 726</value>
+  </data>
+  <data name="buttonClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 42</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelInstructions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelInstructions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 24</value>
+  </data>
+  <data name="labelInstructions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelInstructions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>688, 25</value>
+  </data>
+  <data name="labelInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelInstructions.Text" xml:space="preserve">
+    <value>This app will highlight where keyboard focus or the text cursor is on the screen.
+  </value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Name" xml:space="preserve">
+    <value>labelInstructions</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelInstructions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxSpeak.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="checkBoxSpeak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxSpeak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 648</value>
+  </data>
+  <data name="checkBoxSpeak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="checkBoxSpeak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 29</value>
+  </data>
+  <data name="checkBoxSpeak.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxSpeak.Text" xml:space="preserve">
+    <value>Spea&amp;k where keyboard focus is.</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSpeak.Name" xml:space="preserve">
+    <value>checkBoxSpeak</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSpeak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSpeak.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSpeak.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonColor.AccessibleName" xml:space="preserve">
+    <value>Keyboard focus highlight colour</value>
+  </data>
+  <data name="buttonColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 54</value>
+  </data>
+  <data name="buttonColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="buttonColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 42</value>
+  </data>
+  <data name="buttonColor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonColor.Text" xml:space="preserve">
+    <value>C&amp;olour</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.Name" xml:space="preserve">
+    <value>buttonColor</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;buttonColor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxThickness.AccessibleName" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="comboBoxThickness.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxThickness.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxThickness.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxThickness.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxThickness.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxThickness.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBoxThickness.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxThickness.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBoxThickness.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxThickness.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxThickness.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBoxThickness.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxThickness.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBoxThickness.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxThickness.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxThickness.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxThickness.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBoxThickness.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="comboBoxThickness.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBoxThickness.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxThickness.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="comboBoxThickness.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="comboBoxThickness.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="comboBoxThickness.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboBoxThickness.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxThickness.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboBoxThickness.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBoxThickness.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboBoxThickness.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboBoxThickness.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxThickness.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBoxThickness.Items31" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboBoxThickness.Items32" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboBoxThickness.Items33" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBoxThickness.Items34" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxThickness.Items35" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBoxThickness.Items36" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBoxThickness.Items37" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboBoxThickness.Items38" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboBoxThickness.Items39" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxThickness.Items40" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="comboBoxThickness.Items41" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="comboBoxThickness.Items42" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="comboBoxThickness.Items43" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBoxThickness.Items44" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxThickness.Items45" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="comboBoxThickness.Items46" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBoxThickness.Items47" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comboBoxThickness.Items48" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="comboBoxThickness.Items49" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 114</value>
+  </data>
+  <data name="comboBoxThickness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxThickness.Name" xml:space="preserve">
+    <value>comboBoxThickness</value>
+  </data>
+  <data name="&gt;&gt;comboBoxThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxThickness.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;comboBoxThickness.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxStyle.AccessibleName" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="comboBoxStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="comboBoxStyle.Items1" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="comboBoxStyle.Items2" xml:space="preserve">
+    <value>Dash</value>
+  </data>
+  <data name="comboBoxStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 222</value>
+  </data>
+  <data name="comboBoxStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStyle.Name" xml:space="preserve">
+    <value>comboBoxStyle</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStyle.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStyle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelThickness.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 120</value>
+  </data>
+  <data name="labelThickness.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 25</value>
+  </data>
+  <data name="labelThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelThickness.Text" xml:space="preserve">
+    <value>&amp;Thickness:</value>
+  </data>
+  <data name="&gt;&gt;labelThickness.Name" xml:space="preserve">
+    <value>labelThickness</value>
+  </data>
+  <data name="&gt;&gt;labelThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelThickness.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;labelThickness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelStyle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 228</value>
+  </data>
+  <data name="labelStyle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 25</value>
+  </data>
+  <data name="labelStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelStyle.Text" xml:space="preserve">
+    <value>&amp;Style:</value>
+  </data>
+  <data name="&gt;&gt;labelStyle.Name" xml:space="preserve">
+    <value>labelStyle</value>
+  </data>
+  <data name="&gt;&gt;labelStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStyle.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;labelStyle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelMargin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 174</value>
+  </data>
+  <data name="labelMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="labelMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelMargin.Text" xml:space="preserve">
+    <value>&amp;Margin:</value>
+  </data>
+  <data name="&gt;&gt;labelMargin.Name" xml:space="preserve">
+    <value>labelMargin</value>
+  </data>
+  <data name="&gt;&gt;labelMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMargin.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;labelMargin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMargin.AccessibleName" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="comboBoxMargin.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxMargin.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxMargin.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMargin.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxMargin.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxMargin.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBoxMargin.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxMargin.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBoxMargin.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxMargin.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxMargin.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBoxMargin.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxMargin.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBoxMargin.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxMargin.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxMargin.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxMargin.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBoxMargin.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="comboBoxMargin.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBoxMargin.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxMargin.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="comboBoxMargin.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="comboBoxMargin.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="comboBoxMargin.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboBoxMargin.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxMargin.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboBoxMargin.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBoxMargin.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboBoxMargin.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboBoxMargin.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxMargin.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBoxMargin.Items31" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboBoxMargin.Items32" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboBoxMargin.Items33" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBoxMargin.Items34" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxMargin.Items35" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBoxMargin.Items36" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBoxMargin.Items37" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboBoxMargin.Items38" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboBoxMargin.Items39" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxMargin.Items40" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="comboBoxMargin.Items41" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="comboBoxMargin.Items42" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="comboBoxMargin.Items43" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBoxMargin.Items44" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxMargin.Items45" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="comboBoxMargin.Items46" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBoxMargin.Items47" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comboBoxMargin.Items48" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="comboBoxMargin.Items49" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 168</value>
+  </data>
+  <data name="comboBoxMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMargin.Name" xml:space="preserve">
+    <value>comboBoxMargin</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMargin.Parent" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMargin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBoxFocus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 181</value>
+  </data>
+  <data name="groupBoxFocus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="groupBoxFocus.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="groupBoxFocus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 344</value>
+  </data>
+  <data name="groupBoxFocus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="groupBoxFocus.Text" xml:space="preserve">
+    <value>Keyboard focus hi&amp;ghlight</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFocus.Name" xml:space="preserve">
+    <value>groupBoxFocus</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFocus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFocus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFocus.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxStartMinimized.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="checkBoxStartMinimized.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxStartMinimized.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 606</value>
+  </data>
+  <data name="checkBoxStartMinimized.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="checkBoxStartMinimized.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 29</value>
+  </data>
+  <data name="checkBoxStartMinimized.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBoxStartMinimized.Text" xml:space="preserve">
+    <value>Wallace</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMinimized.Name" xml:space="preserve">
+    <value>checkBoxStartMinimized</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMinimized.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMinimized.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxStartMinimized.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonColourCaret.AccessibleName" xml:space="preserve">
+    <value>Text cursor highlight colour</value>
+  </data>
+  <data name="buttonColourCaret.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonColourCaret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 54</value>
+  </data>
+  <data name="buttonColourCaret.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="buttonColourCaret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 42</value>
+  </data>
+  <data name="buttonColourCaret.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonColourCaret.Text" xml:space="preserve">
+    <value>Colo&amp;ur</value>
+  </data>
+  <data name="&gt;&gt;buttonColourCaret.Name" xml:space="preserve">
+    <value>buttonColourCaret</value>
+  </data>
+  <data name="&gt;&gt;buttonColourCaret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonColourCaret.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;buttonColourCaret.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCaretSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCaretSize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCaretSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 120</value>
+  </data>
+  <data name="labelCaretSize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelCaretSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="labelCaretSize.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelCaretSize.Text" xml:space="preserve">
+    <value>Si&amp;ze:</value>
+  </data>
+  <data name="&gt;&gt;labelCaretSize.Name" xml:space="preserve">
+    <value>labelCaretSize</value>
+  </data>
+  <data name="&gt;&gt;labelCaretSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCaretSize.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;labelCaretSize.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxSizeCaret.AccessibleName" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items1" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items2" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items3" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items4" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items5" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items6" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items7" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxSizeCaret.Items8" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxSizeCaret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 114</value>
+  </data>
+  <data name="comboBoxSizeCaret.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxSizeCaret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxSizeCaret.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeCaret.Name" xml:space="preserve">
+    <value>comboBoxSizeCaret</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeCaret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeCaret.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeCaret.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelCaretMargin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCaretMargin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCaretMargin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 174</value>
+  </data>
+  <data name="labelCaretMargin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelCaretMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="labelCaretMargin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelCaretMargin.Text" xml:space="preserve">
+    <value>Ma&amp;rgin:</value>
+  </data>
+  <data name="&gt;&gt;labelCaretMargin.Name" xml:space="preserve">
+    <value>labelCaretMargin</value>
+  </data>
+  <data name="&gt;&gt;labelCaretMargin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCaretMargin.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;labelCaretMargin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMarginCaret.AccessibleName" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items31" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items32" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items33" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items34" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items35" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items36" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items37" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items38" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items39" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items40" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items41" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items42" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items43" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items44" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items45" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items46" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items47" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items48" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="comboBoxMarginCaret.Items49" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxMarginCaret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 168</value>
+  </data>
+  <data name="comboBoxMarginCaret.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxMarginCaret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxMarginCaret.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginCaret.Name" xml:space="preserve">
+    <value>comboBoxMarginCaret</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginCaret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginCaret.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginCaret.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelCaretTransparency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCaretTransparency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCaretTransparency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 226</value>
+  </data>
+  <data name="labelCaretTransparency.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelCaretTransparency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 25</value>
+  </data>
+  <data name="labelCaretTransparency.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelCaretTransparency.Text" xml:space="preserve">
+    <value>Transparenc&amp;y:</value>
+  </data>
+  <data name="&gt;&gt;labelCaretTransparency.Name" xml:space="preserve">
+    <value>labelCaretTransparency</value>
+  </data>
+  <data name="&gt;&gt;labelCaretTransparency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCaretTransparency.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;labelCaretTransparency.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.AccessibleName" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items2" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items3" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items4" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items5" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items6" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items7" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items8" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Items9" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 222</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxTransparencyCaret.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyCaret.Name" xml:space="preserve">
+    <value>comboBoxTransparencyCaret</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyCaret.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyCaret.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyCaret.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelCaretHotkey.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCaretHotkey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 278</value>
+  </data>
+  <data name="labelCaretHotkey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelCaretHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 25</value>
+  </data>
+  <data name="labelCaretHotkey.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCaretHotkey.Text" xml:space="preserve">
+    <value>On/Of&amp;f hotkey:</value>
+  </data>
+  <data name="&gt;&gt;labelCaretHotkey.Name" xml:space="preserve">
+    <value>labelCaretHotkey</value>
+  </data>
+  <data name="&gt;&gt;labelCaretHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCaretHotkey.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;labelCaretHotkey.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxCaretHotkey.AccessibleName" xml:space="preserve">
+    <value>On off hot key</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items1" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items2" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items3" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items4" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items5" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items6" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items7" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items8" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Items9" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 276</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxCaretHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxCaretHotkey.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCaretHotkey.Name" xml:space="preserve">
+    <value>comboBoxCaretHotkey</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCaretHotkey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCaretHotkey.Parent" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCaretHotkey.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBoxTextCursor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 181</value>
+  </data>
+  <data name="groupBoxTextCursor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxTextCursor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxTextCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 344</value>
+  </data>
+  <data name="groupBoxTextCursor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxTextCursor.Text" xml:space="preserve">
+    <value>Te&amp;xt cursor highlight</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTextCursor.Name" xml:space="preserve">
+    <value>groupBoxTextCursor</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTextCursor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTextCursor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxTextCursor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxHighlightFocus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxHighlightFocus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 74</value>
+  </data>
+  <data name="checkBoxHighlightFocus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBoxHighlightFocus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 29</value>
+  </data>
+  <data name="checkBoxHighlightFocus.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxHighlightFocus.Text" xml:space="preserve">
+    <value>&amp;Highlight keyboard focus</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightFocus.Name" xml:space="preserve">
+    <value>checkBoxHighlightFocus</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightFocus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightFocus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightFocus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxCaretAbove.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxCaretAbove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxCaretAbove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 74</value>
+  </data>
+  <data name="checkBoxCaretAbove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBoxCaretAbove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 29</value>
+  </data>
+  <data name="checkBoxCaretAbove.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxCaretAbove.Text" xml:space="preserve">
+    <value>Highlight &amp;above text cursor</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretAbove.Name" xml:space="preserve">
+    <value>checkBoxCaretAbove</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretAbove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretAbove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretAbove.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxCaretBelow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxCaretBelow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxCaretBelow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 114</value>
+  </data>
+  <data name="checkBoxCaretBelow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBoxCaretBelow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 29</value>
+  </data>
+  <data name="checkBoxCaretBelow.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxCaretBelow.Text" xml:space="preserve">
+    <value>Highlight &amp;below text cursor</value>
+  </data>
+  <data name="checkBoxCaretBelow.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretBelow.Name" xml:space="preserve">
+    <value>checkBoxCaretBelow</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretBelow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretBelow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCaretBelow.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCopyright.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="labelCopyright.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 737</value>
+  </data>
+  <data name="labelCopyright.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 25</value>
+  </data>
+  <data name="labelCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCopyright.Text" xml:space="preserve">
+    <value>© Guy Barker. For more information, visit Herbi.org.
+</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Name" xml:space="preserve">
+    <value>labelCopyright</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="linkLabelHerbi.AccessibleName" xml:space="preserve">
+    <value>See more Herbi.</value>
+  </data>
+  <data name="linkLabelHerbi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="linkLabelHerbi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="linkLabelHerbi.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="linkLabelHerbi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 737</value>
+  </data>
+  <data name="linkLabelHerbi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="linkLabelHerbi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 25</value>
+  </data>
+  <data name="linkLabelHerbi.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="linkLabelHerbi.Text" xml:space="preserve">
+    <value>Herbi Hocus Focus</value>
+  </data>
+  <data name="linkLabelHerbi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;linkLabelHerbi.Name" xml:space="preserve">
+    <value>linkLabelHerbi</value>
+  </data>
+  <data name="&gt;&gt;linkLabelHerbi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;linkLabelHerbi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;linkLabelHerbi.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pictureBox1.AccessibleName" xml:space="preserve">
+    <value>The Herbi cartoon character smiling, with arms outstretched.</value>
+  </data>
+  <data name="pictureBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAE4AAAB4CAIAAADT61P6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAW
+        JQAAFiUBSVIk8AAAIB5JREFUeF7tnQdAVMe6x7fTe29Kh+19YZEiYMUSjSW2a48ltsRurKBgg+0glthL
+        oiZREwPWWLAhW63Xlqix59oQRRB435xzNIpoBBfNfe/9M667xz0z8zvfNzPfzJmzId3/P6P/R7We9Hp9
+        cXEx8eGjqnFRKyoq4uPjhULhw4cP4WN1dTV+/IUqKyvPnj175MiRP/744/V/ta4aF7W8vDwmJoZEIq1e
+        vRo+vgzz6NGjNWvWtGnTxsvLy87OLjg4eMeOHcS/NY4a2aqVlcktU0gUUqxc/vBhKXH0/v39+/enpraA
+        S/Cy0tPTiX9uHDUu6s2bt/gyVlzHIIoNecPa9XDk0aOyKV9PdXZyQXBUkruPA92GRoZ3JNLceXPwsxpJ
+        1kd9+vQp+C28wvtVK1e7BzCmrUryY9l2/eTT+/cfDBw4AEGSSJ5h9p2H8mXNwyh0Cnxs1arl+fPn8Rwa
+        SVZAxVvgnTt38vPzu3TpAv0QKDExceDAgZGRUa6h9P7KqF5TmQFBXp926QxUZDqpWZfAid+kJHYNw8xJ
+        +te/et+9exvPrfFkHavuKCyUiCWo1q+p91S+5lh8VoHIM8QOPjr50rtOjJqyXpDaOwg+2tnZZ8zOKC9/
+        XFNT80/vgaF+a9aucXV1xbhIFDtKQJSbkw/Ds4k93YHiGWzXdkTokEVRmmMSeTdfG2dqp5Gh2uOx41dz
+        HF2prq7u323aDJCIE/6rqSIybRy9L+qWLT/a2TmAV3oH2n82ktdhROi4pYIROtaXi3n9ssLGLhVO2sAd
+        sjRcoxd9uYrZLzNq3GrujALeqCVCcGM3N7f0jJl/3r4NqFU1NUSOjab3RYUGCcYkk+kuXjaC5r4t+oSO
+        WsTRlsizj/E0Br7aINKa+TqzWGngqgw8jUmiPC5Q6UUjFrMBFXXB0CGltLp+8zrYFExLZNo4el/U/v2J
+        HvWF/Nh2mTuFGjNfrWcrDRyAVOtFaj1PoRflGDnAqTXwM7Zz4zv5O3nbUOwQ7aTJExHpPxx1z549Xbt2
+        jWvWTCqLdXZyppBo9u70aT8INGaRuoSrMgrUJr5SL8ASX2Vkg4W1JjgonFvIH5XP6jWNQ7ElCfnC0tJH
+        RI6NpvdFxQWh7Pc/bHZ2cQNXDhU7Zu2QKI08rVGYfSAmc4dAYeQpDDyVnqs4LByxOHr6RnHOsVhViUhr
+        kmX+KujyVXiTUN8L5y4SeTWarIN65/YdPl8IrujgTf1sfLTyiExl5E9aI4iWu8Z28VSXSMCBwZjp20Su
+        gXQnD1pSX3/VUYHCIMgzxm21jEhuLT198gyRV6PJOqgqhQ44Bam+I9TsYXlN5x8SZBTKvZn2cJCf5qor
+        kWkMHI2ZN+cXuU+EDRx0bWI7d5dQoRf8+nvG45o7er2x9OF96JmI7BpHVkAtf1KWkJBAtiM17++XuVOQ
+        e1Koswi//pbL8KZwE73GfSPUFsfpjEKFiaU+zp+yUdBtXGTa4Kaaw5JVJzreKTdhHRKocfskkBVQT520
+        uHm7tRsWOL8wRnGEozKw1EZh1g5ht/HMTsOYghRvcXvfGRvFGrNMeVQ8aY0kbWgTUarXJ2OabtFPqqkp
+        Q2NqNYof4JXIsXFkBdRfCgqDozz3WBb8++EPP50bqToGPS1//s4YaUtfPMQF+UXbTl8nGjSPaeOCgntc
+        KW1irlw9j1kUue4/fbABWSzm+fNnVdU8hDo/rLq+7cIY7XFxi0E+GA7Z1cWNzWGTKbQQrqu8bQR2EIkM
+        s1gSqVu3T/E50AeQFVCrQJXPUAxbXQkfrz09MH11czt3REKn26xft+HBg/sw9qKPtnSI7+fPX9i9e08y
+        Gb5AptFoGzduxPNpbFkBFYvUISFa+Fj27HpazxgymcpgMGhU2rr168vLnwzs1x+ZkkRi0Bn79u23WE44
+        2Dsi05JILVJbfBjDWgEVI8X6FayxnT5r9vBwa9exQ1BAIJD4+PrFxEhtGDZkEp1MQabm8/lxcbEUCgUM
+        y2DYenp6njt3Ds+qUWUF1FratXuXv1/Ajp07wsPCkB2fy87eQSjiEx+QAJYybNgwLy+v7du3Eyc3pqyP
+        unPnTjab/eeff3bujK05kMFLkaM2axY/ZfJUxIg+ISWnpF6+fJnJZKrVajjxv29xFCYAMFM3m8379u1z
+        d3fHqYRCflFRUVpaB3hPpzLkMfLJUybeuHnz+vUb3t5eCoWCOLkxZX3UU6dOOTg4wDwWxp7i4mNZWZkb
+        1n/34P69AweLXLwdo+O8KHTq54OHXLx06crVK0OGDAX4/1YHLi8vT0pKglEkPT393r17KEKoqdl3YF9k
+        NMufbTttXbxvFITBZE8fH19fNPZGRkbeuXOHOLkxZQVUbKRB3S+MOvAOtGLFCnzYDI+ITEpMgNmss4sz
+        ULUbFLG0pEX/aQJbR0QLR6AX/vrrqeVPyp9VVRDZYYJ8iHfWkxVQoTshEJ/r+h/XZa8tIFIplBCWBzvR
+        I0rs6eRsR0FBI4VBZfDYXKlE1qZ120EDB06cNGncuAl5eXlPnz7BR2kryhqoNVVV1VVHjhzW6XLHjh3b
+        6dNPxRKJm5srRBFkEiQwL4WMbEiDNwQ38QaOQKotN1eP3y78RuRuPVmnrcKY0aRJCFHTV0Sh0sk2jnR7
+        D0YAy9Ev2oGV4Cbv6NdU4MRs5hLIcnRvahfIdGzKdPZp6ujkRbNxpFBsyVQq7fuNm4isrSfroG7f/jNq
+        exAQOdDcA2xDBc4xHfxaDQpJ+yKk/5zoUXmRY5az5++NHZYXtnBvTPZB4ZQfeNpj0hk/8qdtkeb8GjdC
+        AzM+/giFePxyyUidNIBjm5qS+uTJYyJ3K8k6qDqNpinfYcBczpd5woEzRf2nC0ZqBPn6WK1ZojUJNCaO
+        2iSEmV3OMbbKyFMa+EqjUGnkwbRWbRLlGoS9s0K57Tw7TwjSmsWLTou7fx1GYdB27dxJ5G4lWQd1zJjR
+        bYb6Lz4Tm3NYlDTYQ9rVvcvkQN0xrhqo8KTnQVI9f/MiKQwchV6oNkiUxaLswyJlCV9tFGQVytyCaQMH
+        fE7kbiVZo1uqqunSo1uPGSEaizCnRKAoFmv1Ql1JjKpEqDAAT228l5O6RABJpefDVQCzq0vgunBzzbKO
+        o4O8vP3+fdaa0wAroD4qvR+TLBuZz9ZYBArknAKotxow9Oj17ahKgxASoGLfR9hKPVdt4U/fLKC7kmbP
+        ziTKsIasgHr71i1xc9b071laM3gsF1vRF2B+Cwxopbs23ssJzG5EdwDQG+QCYGc4wtIdbybp4CkQiPBN
+        FFaRFVDPnr3IlgdmFvLUJwQag0Ct56qgWaIE71H7fEvCLM9HDowSeDLYlqsycBeZ5GPyeTYutMLtaIME
+        PiHGi2uwrIB64EARs5mnskg29UdhRqFAbazNU48EXoDcgasx8HMOSv25jH59BlZXo5uR/wjUDRs2Ctq6
+        a47Eyzp798+J0J4QYpVGHe8rGH+fkC8o9QKFkasAHzYLPxnT1MvH9/yFs1DKPwJ13vyFSX19MrbJPaPo
+        Y74RaDBU3DPrTwvOjxuWr7WIxi7jOHnYHT58GEqBuQReXINlBdSx47/q8GXgyHwBu42rsihGYUQVbSAq
+        aq7QgeM3Y0Uzf+QFs7zMlhNQyj8CtU+/ngMzo4arOV2mhOWZxTDeYL0LGi0VBjTw1CPp0cCjMnBQDkb+
+        /F+FbLnXsaNo3x7ME/HiGiwroHbu2WF0PnOIjt2sh5/uWIIKDZUweIAbs1DvWi9aZFLotLkw6sCJyiMx
+        4lb+RQcPECW9n6yA2qlHh2Eq9qRNEucA6udZvHyLXGVi5wAwRHwl0NO8xvOWhL78HBVCkaMSSWv/g/8c
+        1M969Gj7eYD2aHyE1MXBg95jeoTygASCO4jmVXoOZp9Xef4uodACHNjEy9knYcb6HCo6SpT0frIC6ry5
+        8zxCafP3xI7ME9Gd0Ca6SJlbl/FNZxcAJKp0LZJ3SXAWDDYjtDz/EO/z56yzS80KqAd/PUCxpScPDFxU
+        3Lz3zCg7d+L2W/uRQTqzGGix+BZPWFMEeBQbof4ZgkGs14WGjfwW3sMMAcZVjZGXs18eLnMWiMRlj8qg
+        lHdff0FrXHV111ZAfVxWltK8BYlGkrTxnLgidvTSWHF7Hycf246jgnQmaQ6KB2CyBlTYgGlEAwlhOnjF
+        GicEg9jghKJftGXCxNMa5R1GoWWN2bPnYstVfz/SnDlz5qeftuGhVZ2yAipo144CB1tbqJmtO0XWwW/o
+        XPG4pTFZuwVaM5CgPgZtb0EwXIUBEpqdE76KbAsf0XcUen62QaQ1iTTFCV0nsmj2pIjwqCuXr2Gofz/S
+        zJo1g8FgDBo0+MiRQ+fOXSCOviQroCJ3qa7OUed4enlinkui2pADufZpw5pOXitVFclzDTKNCebc4KvE
+        XEeBdTwoGWDshWktOLBAZ4Ikz/hJmviZP5lOolFo365fh3O+i1XT09Px0rnCKKFIdOrUKeIfnssqqEjw
+        xmSxDBw4wN3dHVsfRHJwp0fJPdK+CBu7UrBgr1hbIsk3S3PNEq1ZhJJFlGsR6yx8nUmoPhwz/QfhJ181
+        9QlFm0VIJMr06dOeVVbgOaNS3kyLlV+9efMmOp1OopC9mzqSKKRevXo9e/aM+AYm6zjwy33GCYs5KytL
+        IomhUdHeOnwdlOFED2TZSzv4tBsZ9K9ZkcNVnOEa5nANa6giqsfkpql9A5gJbk6+xEKpg719xuzZlZXP
+        kEUhzH+tQwKwx48fX7ly5dChQ0uWLBk/flzHDp8ENw2hO1E6juIMXchlyl2Dg4Nv335l421t1CdPnuj1
+        +ve/t1ta+vDnn39OSUl19bL1DrZ7bmZCFBqFQqeQadi6N/pDQJLJ5ISE+MLCQsxvCQEY2OfPO39CxTZs
+        2ACO2rt379jY2ICAABsbtDXohTybMpQ7Wy63xPccH+nq6lrLh2uj6nS53t6++JegDPxgvfTyWUuXLQ2X
+        uUxf3WxAFiuhu1+oyNE9kGHrSqXQqWQqlUSl0Owpdg5ATPP38+3atfP6desfP36C4927dw/YVq5cOXbs
+        2LZt20ZHRzs6OhJMrwouECg4JDRbO+PSw/3Ftxe37MN0dna5ePGVHW5/oVZWVm7dthUuFYNON5lMxNH3
+        U44iO4jj+Hl2FPRMuUbpwgOSjO3SiesEQzTRg7MhMcctk3QaFQXVTZ+ZAYQVFRVms1mn03Xv3p3L5To5
+        OeEwtQRgDg4OTZo0iYuLGzx4cHZ29pYtWy5fuYI5Afh71ZSMSSNGjgQioh6Y/kLNz89HzRqaioMdNAAY
+        psC2tXT69Gm40rt37965cye4Ga5Vq1YtWrQoLy8PqoiUq4U/kGbOnNm2fWp8d78+c1kLDgrVBjYKa80C
+        jUWkQ72RKO+kcMFB8WezQnzDHD7r2m3SpMkSifR10wEYlUr18PAQCoVwCWbMmAFuXFxcfO3atfLycqL2
+        mNCdo+oq8PcHj0qhJdbySgL11s2bUZGRkK8o1Z8fHwgDlJubG7j764LLCQVjLkNGt/ix7Q1vFJ00Qisa
+        sSpk5u5opYmtQCtseJCEj6u8nGOC9G2SVgP8RbGv7CaAzF1cXHg8Xt++fXNycrZv3w6XvrT0r8dXXheM
+        SViYhHCJQ6+KQC0o2EF3pDMT3ad9J/l0bJ13X95JUEV4pZIp6I4UiWLrQx67mp1vkar0YmwlsXY8DJPS
+        hUXCOVukwVzwVTKDzgDTDR02ZO26tRbLiQcPHuDVs4oI1O++28iUe+bsjVcbRLqCgd17dktunvJ2tWjR
+        AsYuaCqDnmvKlCnQbMaOH+/riWIJe2fGkGyB8pgUptoQLeAhbi1UFEKZ2TkHYv256CEGW4bdtGnTqt4c
+        3L2PCNRN3232bWo/ehHzh38P/0/VBXACaNN/K/zcl3Xjxo22ae3JZBqMpuK2PpojMTAXA3sizrpReQoT
+        B67voPlctwAUWkKzGDR4kBWXf1+IQN37634oRtoi9MqDY+8YiL2uS5cuxcXJIR9XX9te03j95obMKmAp
+        sV3eaDaDJnSvciJUtLqvMYoW7Ba1H91E1iaAZoeawLAhQyoqX7mP/v4iUB+WliYlJspkkidP632rDyZN
+        8Hr71q2UpFSopWeQXXLvwOzdcsVhwfwinOeNay7Y0gxfbZBM+yV81i+sxcVxnUeEQ0BBJlHmzUN3MbBu
+        poGXvpYIVND58+f37NkDcUl9IweoB4z7vT7rBZxNuQ4zNshm/Cic+jNTA5Et4qndFb2SMDtjNzsE8P25
+        e8XdZoV0mxBu706xt3NYt241gD6XlZbRGhYYvdDMGTOA096b1ns6W1ciVxugvwWLvZhz/8WG9U9/fcTW
+        2RAwsq2JP6swevJPzMXmhM/GRUOGvj4BMIxjnGi+TRTWUP1l1QYIv0CbN2+2tbV39qeN0HA+XxSauYur
+        RRgchRE558tgkPC5G25MlP6azaEpqwZsa+Yrjsr7zQ0Tt/YA2pTU1g9LkePgzeR99F6oIBjZYUoBder6
+        FTfXGIduhJfApPRFfwt9b20Hfgn1OSc6gg4CMLpGR8GTOcp9cbzmXpDzrPSZuGGJIhuqhqBi7oSucVlZ
+        abt2aC9dUveQThODhy+NhA4GCNEaUokQTcFRrwO1ByoBtFu1gafGloWRewMtjqeH78DAy1FBgkuDnagz
+        iufsFLYcGuAWaOvi7Irfy3hPNdCq1TVo1qvOUQMnN9VdWSRfeEQy91fU2SqNaMFBa+bpzCKdWaY5EaM2
+        xypLYhXFUlWxRFUsVRbL1Ea5xiTXWWJ15hiNmacy8RQGAQob0diDP5cjyCriZe+TDZmNnmlJa9u+Vrjb
+        ADXcgS0mo7eHt50Ltf0XAYpDYqUJmplAZxFqisUwSE79Vjhcyek+OSzti6DE3r6idp7MJDdWkic7yYOd
+        7CHv7J/aP6DLuJAB86InrhHN3yPVGqVaixjiRDVqsWyVgakyopsDw7Rh7CQ3KpX+89afiYIbqgY68JMn
+        ZR07dIZJdd9ZUbMKeQuPxWhN0sxfpH3nsCTtvP2i7RzcGWTaq/PxOkUh2brQ/Nn2Cb19RuSxc4pidSYZ
+        asNozUmgOM5fcJCf+WO8s69tUkLSo/d7mKyBVoWJG0T1og5e6uMxuSfE0zbKUvoGeIbaErvMMJFR8A8R
+        PN3RwcHLy8vb29vHx9fH18/HxxtmTTa2NhAD4tMDXHRbakSse785YTkHxVpsARlaMrj3pO94zCT0fOya
+        NWuJ4huk+qHio8t//vyPgC+y86AM10UrDzbrODzY1YeBryFB1d3cPKRSGcwEMjMzoXK7du06fvz4xYsX
+        IWy89Nvvv0G6dOn0qVMHDhzYuHGTUqX8fPDnIqHQ3haF+ygHGik6zm1MHjdPH6syoWF59m72rO8k3mE2
+        CQkJ5U+eoGqgDrmyvn1yQ6yqyka9Ue/prPRN8exEbxzSlmGTlJCoVKhPnjxZVlaGDQ/vKgju9+/fP3bs
+        2NCQEHy10daV0W5YmHIf+LNAbRIrD4nlXXyodFrB9kKoAD4vxSvz7qo36p07d6KiWOFit6FZMq8INBeh
+        Umjt27UuLPil/Ek5UfeG6urVK3Mz5wUHERNmQarn7B9jck/GTNgSPkzF8YtgdO3SveoZhMQNiYrrjQqt
+        lGxDbtY2ws0HLdgGNQ1aueKbyoqnRGWx8Pw9df7chf79+9Jo0ChIQTynSWsFiywiRZGU18bZ2c0NnB99
+        qf6RbP1QKyoqWrduDS7GsEerUKnJKWaLBaseFrm9NydkguVTU1X1bOXK1dCTQSmeIbbjVnAXFglH5Amc
+        /anKHDX23VeWs99F9UOFduj6/McC+vXv958//8RKBVmBE9MrmRw6dETEF0BZHsE2E74RLTEnc1o4t27d
+        4RlaDW9kq2q1Wpxz8ODBjx8TP+aAV6sRhHK+cO58i1Q0DfYKs5vxXVyv6aEBIf5XfmvII8z1QK2qqsIf
+        nenSpcujR49QXZ77WyMJz/zW7Ztp7dKg3IhY55kb4oNYLgXbGvIExzuhQpHweu3aNX9//5CQkKtXr+JV
+        aXwBKnS2Nbdv32zdsiXQyto34ccHZGZk4RWrl96Geu7cOZPJ9CLO3rt3LxQ2efJkvBYfTtXoPtWFi5c4
+        LA4M4Q6uDOgm8CrVS29EXbpksa+3j7OjY4f27fVGIxxRq1Senp4wQcUr8AGFrWXX1BQdPAjBJVzueBQ2
+        oRto1dXE8hBcD1Tpt6pu1AvnLvj5+kKmuMLCws+cPDXiixHJqS2rq5FHfSytXbuWwWBAO7px48aZs6cG
+        DuzXp08fk9lM1Putqhs1fWY6uEq03KNZpwDXJig6bd+2fUJCs9FffkWU+fEE8aOLi0thYYFYiKayIIje
+        Lrx6061O1YEKEaxYIuK3dM3YItMclg9RRoWIXah0uq0NbdmyJUSBH0+///57RERESkoKuvHhTGO4ogh8
+        1Mgv0WDw1hCqDtQTJ056eLkOm8/UGkXZJYLM3ayv18c5+NKoZNqenTuJAj+e7t69y+VyaTR6uMz1q9yY
+        AXOjQsXOISHBt27dIgDeoDpQN23c7Bdh/8XiCA16RISrNYnHfRsV09Xfzc3l9MnTWHGNOJa+SVAkPoTf
+        u3eHy0RdceexYdrjMVn72OO/kTi62v78UwFU/i39Ux2o+fmL47v6qI7FYgtcaL0v5xh73HIekxd8/Rq+
+        teajCPkn/FVR8TQhrnkAy2F4HnPuAW6uSTZxrdg1iJI+azZUvn6oc+ZkNe/jk2uJQ3fQ0PIsX2MRTlrP
+        Sm4jLy2t30TUqoIRB3X+lZXPkls0bznYL9ckVpUI1cXC0avC2wxq0rP3Z3hbxc2Ps7ysOlAnTpoc0sxm
+        xg58Fz6gCtVm0fi17JYd4h8/xidrH8GBMaFyn1Y8TfskeexSjtaMVlVVJRy1XjRazU1pEY8Ptm+65VEH
+        qkajje3im7VPrEGrOzzwYY2ZN2ENu2V7QEV7Mj6eMAd+WpHWMXXcimitWYRvbFMcl/aeESwQM+/+5y7U
+        /03zuzpQlyxZltA1IN8QC5zYo03o94PGr+MktBY/fIB+0uMjCdySaKttP0kZu4KltQgURpbSJJpWwOk2
+        I1iSFA1xBdQfuyJ1tNg6ULdt/ckr3GbUsiiNUazG9pZrTbwZW0WixMhrV6/jxX54oeoTqBUYKlNnRmZQ
+        oJsGgvmF0piWzBs3rkH98e/hLC/rFVTcy4sOHgrju4PHYre62ci2Js6cnSJOXOCZ0+eel/uhhaEiVVQ8
+        a9OJQFWXoLsBCw/xeqaHsWSRN2+i7WfwRfzmQy3VQkV2v3DhYhQ/cNYmsdokwTZAclRG9sIicXScW2Hh
+        Lqy4jyUE++RxectPmk1Yy9ZZeGoDV22UTPoxuvuMMGEiWPUmokBWfTcHfviwVCwTD8yKyjslhcFGjR58
+        gUYrEbRyyclR4GV+JCHUmzfuyFPZGVulMEBA9bJLhFpjTMaWmKR20nv37kH964EK6tOrfyDX5ov8CMVx
+        DFXPz7VIWg327tW7D17mxxDhwhCxRcn8ZhfIVCb0zJ3SIMr6VdhxTHByi8S338KqGzUvN9/OnfaFUghj
+        NDa08nLNMYPnR0eywm/evImX/MFFoG79cWtErEt2UYzKiB6sVJsEY9ZHMFu6durUqarqbZsI6ka1WMxu
+        3u5D54UvsvCxm9/oWab078VOPrS1q9fjJX9wEagKpZqf5qQ1SLEneDhKEyffmBj3qe+UKVPxymNfq4O5
+        btSKirKWqW1CRfYLd8TlHIeeCWzL0RyVhTdzGD36S7zkDy9sEKlZtW51j68jIX5A96MN0QuOsmdukvtF
+        2q1du46o/fP+tZbqRgWtXLYc5oHhSa5Tt/K0RrFSL9CZhd2nB83KmoIX/OGFQKsrS5/c335+ck4JG1DV
+        Rl7WPoG4k4ent9fZM3/zS4hvRL11+zY0TQcP+tcbpLmnBBpkWNG8fcJj53EHhrGrCpWN3T7BjnwAoUKr
+        asp2XpyYXcIEX1twlKc6mBAR45LS/O9/iqtuVLzyy5YtJZOp3FSvCesk8w6ix19UxZw9lzIra8qwyQOO
+        +sE4cVU9qrryraVXtp6pMgum7eC0HNKEbkf6ZulKqHa9VyFAQAIE5U8ff9qpG7gxJ9Ujc49AbRaqj7OW
+        6Fv9UXYMFVqN/fTbh0KFhloFHlRd88fjA3mGOIWBDbH+7B1y/2iH6LDIWtv069QbUDGrgU6dOhHo5+8b
+        Yjd5jTDzV67GwFUUMwvOTyivuQshGua9H1hVh26oYPzTmfjaI7Ex3b3IFNL8rLlEvZ+rTvPWjYpxAi36
+        e8XylVQqPUzulLVTnHdSkmuQ5OtjTLdWPKt+9PTpk4qn5ZDvC6HzrCciU0wPsB9xPXvjsGZPp4kbeVM3
+        iXtMibR1prm4un2zcrnZZLRYLOfPn79z506dW1pBb+yWQFAAnHbmzFkul+/gRR8wm9drZvgno8JSB/im
+        9WV36d0hMTE5OSm5e7du/fr169u375QpU178lpS1tGvXrtGjR0N4IBQIw8LDwtlNfMLsHX1pUB+KDdpd
+        TaXSaHS6s7OTi4uzl5dXeHj45s2bCYBXVQcqEEJvduTIkYyMjNQWLfz9/e0YNlT0PNPf71jZv38/UUdr
+        6O7du9HRaLPhayJqgvaVvLRxBNecOXX/rwpqo4IZN23a1KpVKwcHB+JUTHimuOhUGwaNzqDT4D1cUzL6
+        RUIkBoNB5GI9BQQE4Jnb2NgE+AcEBweHh4e1adNGIpE2adKkXbt2aWlpycnJYE8WiwUmhe9///33xMmv
+        qjYqePyLRz5Q7en0oKAgH1///v37zZ09f5FOO2HcuJ9/Kdy1Z8+evbuXL1++Zcs2yDo/Pz8vL+/bb78t
+        K0MPYFpLMAtftGjRggULli5dum3btsu/X75w4cLJEyfA7679cc1gMKBGXF1dWlp66NAhcAHohy9fvvyu
+        bRX8loJZicfj9ezZs6CgAE4+fry4Cvs90Q8swCDeWUO1Ua9evQrdAPgwPvd7WdC9QiI+PFedM8N/puro
+        lv636v9R/zfq/wzq/fv/Az1PQCrIAUS9AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 550</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 156</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBoxHighlightTextLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxHighlightTextLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>785, 74</value>
+  </data>
+  <data name="checkBoxHighlightTextLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 29</value>
+  </data>
+  <data name="checkBoxHighlightTextLine.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxHighlightTextLine.Text" xml:space="preserve">
+    <value>&amp;Draw line below text</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightTextLine.Name" xml:space="preserve">
+    <value>checkBoxHighlightTextLine</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightTextLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightTextLine.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxHighlightTextLine.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonColourUnderline.AccessibleName" xml:space="preserve">
+    <value>Text cursor highlight colour</value>
+  </data>
+  <data name="buttonColourUnderline.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonColourUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 54</value>
+  </data>
+  <data name="buttonColourUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="buttonColourUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 42</value>
+  </data>
+  <data name="buttonColourUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonColourUnderline.Text" xml:space="preserve">
+    <value>Co&amp;lour</value>
+  </data>
+  <data name="&gt;&gt;buttonColourUnderline.Name" xml:space="preserve">
+    <value>buttonColourUnderline</value>
+  </data>
+  <data name="&gt;&gt;buttonColourUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonColourUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;buttonColourUnderline.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSizeUnderline.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSizeUnderline.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSizeUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 120</value>
+  </data>
+  <data name="labelSizeUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelSizeUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="labelSizeUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelSizeUnderline.Text" xml:space="preserve">
+    <value>S&amp;ize:</value>
+  </data>
+  <data name="&gt;&gt;labelSizeUnderline.Name" xml:space="preserve">
+    <value>labelSizeUnderline</value>
+  </data>
+  <data name="&gt;&gt;labelSizeUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSizeUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;labelSizeUnderline.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxSizeUnderline.AccessibleName" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items1" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items2" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items3" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items4" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items5" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items6" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items7" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Items8" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 114</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxSizeUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxSizeUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeUnderline.Name" xml:space="preserve">
+    <value>comboBoxSizeUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxSizeUnderline.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTransparencyUnderline.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTransparencyUnderline.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTransparencyUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 174</value>
+  </data>
+  <data name="labelTransparencyUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="labelTransparencyUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 25</value>
+  </data>
+  <data name="labelTransparencyUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelTransparencyUnderline.Text" xml:space="preserve">
+    <value>Margi&amp;n:</value>
+  </data>
+  <data name="&gt;&gt;labelTransparencyUnderline.Name" xml:space="preserve">
+    <value>labelTransparencyUnderline</value>
+  </data>
+  <data name="&gt;&gt;labelTransparencyUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTransparencyUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;labelTransparencyUnderline.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMarginUnderline.AccessibleName" xml:space="preserve">
+    <value>Margin</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items31" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items32" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items33" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items34" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items35" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items36" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items37" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items38" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items39" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items40" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items41" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items42" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items43" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items44" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items45" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items46" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items47" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items48" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Items49" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 168</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxMarginUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxMarginUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginUnderline.Name" xml:space="preserve">
+    <value>comboBoxMarginUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMarginUnderline.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 226</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 25</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Transpar&amp;ency:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.AccessibleName" xml:space="preserve">
+    <value>Transparency</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items2" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items3" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items4" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items5" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items6" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items7" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items8" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Items9" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 222</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 32</value>
+  </data>
+  <data name="comboBoxTransparencyUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyUnderline.Name" xml:space="preserve">
+    <value>comboBoxTransparencyUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyUnderline.Parent" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTransparencyUnderline.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="groupBoxUnderline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>785, 181</value>
+  </data>
+  <data name="groupBoxUnderline.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxUnderline.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBoxUnderline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 344</value>
+  </data>
+  <data name="groupBoxUnderline.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBoxUnderline.Text" xml:space="preserve">
+    <value>Line &amp;under text</value>
+  </data>
+  <data name="&gt;&gt;groupBoxUnderline.Name" xml:space="preserve">
+    <value>groupBoxUnderline</value>
+  </data>
+  <data name="&gt;&gt;groupBoxUnderline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxUnderline.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxUnderline.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 24</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1166, 783</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Herbi HocusFocus V2.2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HerbiHocusFocusForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
